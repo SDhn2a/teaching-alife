@@ -51,6 +51,5 @@ if (args.TestUnknown() == false) exit(0);  // If there are leftover args, throw 
     //std::cout << "Population: " << world.GetNumOrgs() << std::endl;
     world.Update();
   }
-
-
+  std::cout << "Success!" << std::endl;
 }
